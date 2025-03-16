@@ -50,7 +50,7 @@ h2 {
 }
 .form {
     margin: 40px auto !important;
-    width: 500px;
+    width: 600px;
     padding: 50px;
     text-align: left;
 }
@@ -82,5 +82,8 @@ h2 {
     }   
     .active { 
         transform: translate(-20% , -430px);
+    }
+    .form {
+    width: 500px;
     }
 }
