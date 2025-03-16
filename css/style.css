@@ -50,7 +50,7 @@ h2 {
 }
 .form {
     margin: 40px auto !important;
-    width: 600px;
+    width: 500px;
     padding: 50px;
     text-align: left;
 }
@@ -74,4 +74,13 @@ h2 {
     transform: translate(-75px , -430px);
     border-radius: 30% 30% 0 0;
     color: white !important;
+}
+@media (max-width : 576px) {
+
+    .login-page {
+        transform: translateX(-20%);
+    }   
+    .active { 
+        transform: translate(-20% , -430px);
+    }
 }
