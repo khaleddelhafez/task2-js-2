@@ -89,10 +89,10 @@ h2 {
 @media (max-width : 576px) {
 
     .login-page {
-        transform: translateX(-20%);
+        transform: translate(-50% , 30px);
     }   
     .active { 
-        transform: translate(-20% , -430px);
+        transform: translate(-50% , -430px);
     }
     .form {
         width: 500px;
