@@ -2,7 +2,7 @@ let btnsubmit = document.querySelector("#signup-btn")
 let btnlogin  = document.querySelector("#login-btn")
 
 let loginpage = document.querySelector("#loginpage")
-let signuppage = document.querySelector("#signuppage")
+let signuppage = document.querySelector(".signup-header")
 
 let signup_h2 = document.querySelector(".signup-h2")
 
@@ -14,7 +14,6 @@ let showlogin = ()=>{
     email.value=''
     password.value=''
     }, 1000)
-
 }
 let showsignup = ()=>{
     loginpage.classList.remove("active")
